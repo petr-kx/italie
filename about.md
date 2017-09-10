@@ -1,7 +1,7 @@
 ---
 layout: page
-title: O blogu
+title: Popis
 permalink: /popis/
 ---
 
-Toto je blog o nasi ceste do Italie, o navsteve mesta Bologna, pobytu v hotelu na plazi v Rimini a o me ceste na sever Italie na rainbow gathering.
+Toto je strucny zaznam o nasi dovolene v Italii v lete roku 2017.
