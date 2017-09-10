@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<style>
+.headimg {
+    height: 300px;
+}
+</style>
+
+
 <div class="home">
 
   {{ content }}
@@ -15,6 +22,9 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
+        {% if post.image %}
+          <img class="headimg" src="{{ post.image }}">
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
