@@ -14,7 +14,7 @@ layout: default
   {{ content }}
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -23,7 +23,7 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
         {% if post.image %}
-          <img class="headimg" src="{{ post.image }}">
+          <a href="{{ post.url | relative_url }}"><img class="headimg" src="{{ post.image }}"></a>
         {% endif %}
       </li>
     {% endfor %}

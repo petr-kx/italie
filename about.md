@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Popis
+title: O blogu
 permalink: /popis/
 ---
 
-Toto je strucny zaznam o nasi dovolene v Italii v lete roku 2017.
+Toto je blog o nasi dovolene v Italii v lete roku 2017.
